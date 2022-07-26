@@ -1,0 +1,43 @@
+
+        body{
+            /* justify-content: center; */
+            /* display: flex; */
+            /* text-align: center; */
+            width: 50%;
+
+        }
+        body,label{
+            margin-left: 50px;
+            margin-top: 50px;
+            
+        }
+       .year {
+        height: 20px;
+        width: 60px;
+        
+       }
+       .Div_class{
+        margin-left: 50px;
+        margin-top: 30px;
+       }
+        .one{
+            width:50%;
+            height:auto;
+            border: 1px solid;
+            display:flex;
+            flex-wrap:wrap;
+        }
+        #month ,#show{
+            height: 20px;
+            width: 60px;
+        }
+        button{
+            margin-left: 60px;
+            margin-top: 5px;
+        }
+        .one1{
+            width: 50px;
+            padding: 5px;
+            margin: 5px;
+
+        }

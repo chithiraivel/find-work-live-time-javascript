@@ -7,41 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <style>
-        /* .box{
-            border: 1px solid;
-            height: 200px;
-            width: 500px;
-        } */
-    </style>
+    <link rel="stylesheet" href="/workLive.css">
+
 </head>
 
 <body>
-    <!-- <div class="box">
-
-        <select id="">
-            <option value="1972">1972</option>
-        </select>
-    </div>
-     -->
-
-    <select id="" onchange="month(this.value)">
-        <option value="">mm</option>
-        <option value="jan">jan</option>
-        <option value="feb">feb</option>
-        <option value="march">march</option>
-        <option value="april">april</option>
-        <option value="may">may</option>
-        <option value="june">june</option>
-        <option value="july">july</option>
-        <option value="august">august</option>
-        <option value="september">september</option>
-        <option value="october">october</option>
-        <option value="novmber">november</option>
-        <option value="december">december</option>
+   
+     <label > Month
+    <select id="month" onchange="month(this.value)">
+        <option value="">MM</option>
+        <option value="1">jan</option>
+        <option value="2">feb</option>
+        <option value="3">march</option>
+        <option value="4">april</option>
+        <option value="5">may</option>
+        <option value="6">june</option>
+        <option value="7">july</option>
+        <option value="8">august</option>
+        <option value="9">september</option>
+        <option value="10">october</option>
+        <option value="11">november</option>
+        <option value="12">december</option>
     </select>
+</label>
 
-    <select id="show"></select>
+<label >days
+    <select id="show" onchange="days(this.value)"></select>
+</label>
+
+
+
 
     <script src="/workLive.js"></script>
 </body>
